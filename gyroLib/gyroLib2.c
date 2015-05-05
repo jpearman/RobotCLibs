@@ -177,8 +177,8 @@ task GyroTask()
 }
 
 /*-----------------------------------------------------------------------------*/
-/** @brief    Initialize the Gyro                                              */
-/** param[in] port the analog port that the gyro is connected to               */
+/** @brief     Initialize the Gyro                                             */
+/** @param[in] port the analog port that the gyro is connected to              */
 /*-----------------------------------------------------------------------------*/
 void
 GyroInit( tSensors port = in1  )
@@ -193,9 +193,6 @@ GyroInit( tSensors port = in1  )
 
 /*-----------------------------------------------------------------------------*/
 /** @brief Reinitialize the gyro task                                          */
-/*  Cause the gyro to be reinitialized by stopping and then restarting the     */
-/*  polling task                                                               */
-/*                                                                             */
 /*-----------------------------------------------------------------------------*/
 /** @details
  *   Cause the gyro to be reinitialized by stopping and then restarting the
